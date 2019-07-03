@@ -7,7 +7,7 @@ import Login from './Pages/Login/Login.js';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function isLogin() {
-  return window.location.pathname === '/login'
+  return window.location.pathname === '/login' || window.location.pathname === '/'
 }
 
 function App() {
@@ -16,8 +16,9 @@ function App() {
       <div>
         {!isLogin() && <Header />}
 
-        <Route exact path="/" component={Home} />
+        <Route exact path="/" component={Login} />
         <Route path="/login" component={Login} />
+        <Route path="/home" component={Home} />
         <Route path="/register" component={Register} />
         <Route path="/products" component={Products} />
       </div>
