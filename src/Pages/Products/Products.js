@@ -6,19 +6,6 @@ function Products() {
   return (
     <Fragment>
       <ListProducts />
-      <ListProducts />
-      <ListProducts />
-      <ListProducts />
-      <ListProducts />
-      <ListProducts />
-      <ListProducts />
-      <ListProducts />
-      <ListProducts />
-      <ListProducts />
-      <ListProducts />
-      <ListProducts />
-      <ListProducts />
-      <ListProducts />
     </Fragment>
   );
 }

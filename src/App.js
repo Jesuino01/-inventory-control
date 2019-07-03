@@ -1,8 +1,9 @@
 import React from "react";
 import Header from '../src/components/Header';
-import Home from './pages/Home/Home';
-import Products from './pages/Products/Products.js';
-import Register from './pages/Register/Register.js';
+import Login from './Pages/Login/Login'
+import Home from './Pages/Home/Home';
+import Products from './Pages/Products/Products';
+import Register from './Pages/Register/Register';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function isLogin() {
@@ -15,8 +16,8 @@ function App() {
       <div>
         {!isLogin() && <Header />}
 
-        <Route exact path="/" component={isLogin} />
-        <Route path="/login" component={isLogin} />
+        <Route exact path="/" component={Login} />
+        <Route path="/login" component={Login} />
         <Route path="/home" component={Home} />
         <Route path="/register" component={Register} />
         <Route path="/products" component={Products} />
