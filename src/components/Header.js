@@ -27,9 +27,9 @@ function hideMenuUser(){
 class Header extends React.Component {
   render() {
     return (
-      <header className="pt16">
-        <nav className="flex justify-between">
-          <div className="flex items-center justify-center pl32 pointer pb16" onMouseEnter={showMenu} onMouseLeave={hideMenu} tabIndex="1" onFocus={showMenu} onBlur={hideMenu}>
+      <header className="pt16 fixed bg-white w-100">
+        <nav className="flex justify-between diagram-project">
+          <div className="flex items-center justify-center pointer pb16" onMouseEnter={showMenu} onMouseLeave={hideMenu} tabIndex="1" onFocus={showMenu} onBlur={hideMenu}>
             <img src={menu} alt="menu" className={`pa10 ${style.menuIcon}`} id="menuIcon"/>
             <span>Menu</span>
             <div id='menu' className={`absolute br3 ${style.menu}`}>
@@ -41,7 +41,7 @@ class Header extends React.Component {
             </div>
           </div>
           <div className="pointer pb16"><img src={logo} alt="Compre Certo Estoque" tabIndex="2"/></div>
-          <div className="flex items-center justify-center pr32 pointer pb16" tabIndex="3" onMouseEnter={showMenuUser} onMouseLeave={hideMenuUser} onFocus={showMenuUser} onBlur={hideMenuUser}>
+          <div className="flex items-center justify-center pointer pb16" tabIndex="3" onMouseEnter={showMenuUser} onMouseLeave={hideMenuUser} onFocus={showMenuUser} onBlur={hideMenuUser}>
             <img src={user} alt="user" className="pa10"/>
             <span>Usuário</span>
             <img src={arrow} alt="\/" className="pa10"/>

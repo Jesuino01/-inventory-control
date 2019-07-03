@@ -1798,6 +1798,9 @@ code,
 .w-10 {
   width: 10%;
 }
+.w-15{
+  width: 15%;
+}
 .w-20 {
   width: 20%;
 }
@@ -3205,6 +3208,9 @@ code,
 .pb4 {
   padding-bottom: 0.25rem;
 }
+.pb7{
+  padding-bottom: 7px;
+}
 .pb10 {
   padding-bottom: 0.625rem;
 }
@@ -3237,6 +3243,9 @@ code,
 }
 .pt4 {
   padding-top: 0.25rem;
+}
+.pt7{
+  padding-top: 7px;
 }
 .pt10 {
   padding-top: 0.625rem;
@@ -3897,6 +3906,9 @@ code,
 .f7 { font-size: .75rem; }  */
 .f11 {
   font-size: 0.688rem;
+}
+.f10{
+  font-size: 10px;
 }
 .f12 {
   font-size: 0.75rem;
