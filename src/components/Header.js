@@ -34,9 +34,9 @@ class Header extends React.Component {
             <span>Menu</span>
             <div id='menu' className={`absolute br3 ${style.menu}`}>
               <div className={`flex flex-column`}>
-                <div>Home</div>
-                <div>Produtos</div>
-                <div>Cadastrar parceiro</div>
+                <div><a href="/">Home</a></div>
+                <div><a href="/products">Produtos</a></div>
+                <div><a href="/register">Cadastrar parceiro</a></div>
               </div>
             </div>
           </div>
