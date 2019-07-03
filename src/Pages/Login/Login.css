@@ -1,0 +1,18 @@
+.container{
+    height: 100vh;
+}
+
+.page-login {
+    width: 100%;
+}
+
+.logo-login{
+    width: 100%;
+}
+
+.login-fields {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
