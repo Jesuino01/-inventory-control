@@ -1,9 +1,10 @@
 .menu, .menuUser{
-  top: 10%;
+  top: 100%;
   background-color: #F3F3F3;
   padding: 0px 16px;
   height: 0px;
   overflow: hidden;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 20%);
 }
 
 .menu a, .menuUser a{
@@ -34,5 +35,5 @@
 }
 
 header{
-  box-shadow: -1px 6px 5px 0px rgba(204,204,204,1);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 20%);
 }

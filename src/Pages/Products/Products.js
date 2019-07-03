@@ -1,8 +1,25 @@
-import React from "react";
+import React, { Fragment } from "react";
+import './Products.css';
+import ListProducts from "../../components/ListProducts";
 
 function Products() {
   return (
-      <h1>Products</h1>
+    <Fragment>
+      <ListProducts />
+      <ListProducts />
+      <ListProducts />
+      <ListProducts />
+      <ListProducts />
+      <ListProducts />
+      <ListProducts />
+      <ListProducts />
+      <ListProducts />
+      <ListProducts />
+      <ListProducts />
+      <ListProducts />
+      <ListProducts />
+      <ListProducts />
+    </Fragment>
   );
 }
 
