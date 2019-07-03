@@ -1,14 +1,10 @@
 import React from 'react';
-import arrow from '../src/images/arrow.svg';
-import './App.css';
+import Header from '../src/components/Header';
+
 
 function App() {
   return (
-    <header>
-      <nav>
-        <img src={arrow} />
-      </nav>
-    </header>
+    <Header/>
   );
 }
 

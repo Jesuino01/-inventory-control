@@ -1,0 +1,33 @@
+.menu, .menuUser{
+  top: 10%;
+  background-color: #F3F3F3;
+  padding: 0px 16px;
+  height: 0px;
+  overflow: hidden;
+}
+
+.menu div, .menuUser div{
+  width: 150px;
+}
+
+.menu div div, .menuUser div div{
+  padding: 24px 0px;
+  color: #585858;
+  border-bottom: 1px solid black;
+}
+
+.menu div div:last-child, .menuUser div div:last-child{
+  border-bottom: none;
+}
+
+.menu div div:hover, .menuUser div div:hover {
+  color: #000438;
+}
+
+.menu{
+  left: 2%;
+}
+
+header{
+  box-shadow: -1px 6px 5px 0px rgba(204,204,204,1);
+}
