@@ -30,7 +30,7 @@ class Header extends React.Component {
       <header className="pt16 fixed bg-white w-100">
         <nav className="flex justify-between diagram-project">
           <div className="flex items-center justify-center pointer pb16" onMouseEnter={showMenu} onMouseLeave={hideMenu} tabIndex="1" onFocus={showMenu} onBlur={hideMenu}>
-            <img src={menu} alt="menu" className={`pa10 ${style.menuIcon}`} id="menuIcon"/>
+            <img src={menu} alt="menu" className={`pr10 ${style.menuIcon}`} id="menuIcon"/>
             <span>Menu</span>
             <div id='menu' className={`absolute br3 ${style.menu}`}>
               <div className={`flex flex-column`}>
@@ -44,7 +44,7 @@ class Header extends React.Component {
           <div className="flex items-center justify-center pointer pb16" tabIndex="3" onMouseEnter={showMenuUser} onMouseLeave={hideMenuUser} onFocus={showMenuUser} onBlur={hideMenuUser}>
             <img src={user} alt="user" className="pa10"/>
             <span>Usuário</span>
-            <img src={arrow} alt="\/" className="pa10"/>
+            <img src={arrow} alt="\/" className="pl10"/>
             <div id='menuUser' className={`absolute br3 ${style.menuUser}`}>
               <div className={`flex flex-column`}>
                 <div>Perfil</div>
