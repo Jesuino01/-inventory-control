@@ -1,9 +1,9 @@
 import React from 'react';
-import arrow from '../images/arrow.svg';
-import user from '../images/user.svg';
-import menu from '../images/menu.svg';
-import menurotate from '../images/menu-rotate.svg';
-import logo from '../images/logo.svg';
+import arrow from '../../images/arrow.svg';
+import user from '../../images/user.svg';
+import menu from '../../images/menu.svg';
+import menurotate from '../../images/menu-rotate.svg';
+import logo from '../../images/logo.svg';
 import style from './header.module.css';
 
 function showMenu(){

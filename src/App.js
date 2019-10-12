@@ -1,20 +1,18 @@
 import React from "react";
-import Header from '../src/components/Header';
-import Login from './pages/Login/Login'
-import Home from './pages/Home/Home';
-import Products from './pages/Products/Products';
-import Register from './pages/Register/Register';
+import Header from './components/Header';
+import Login from './Pages/Login'
+import Home from './Pages/Home';
+import Products from './Pages/Products';
+import Register from './Pages/Register';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-function isLogin() {
-  return window.location.pathname === '/login' || window.location.pathname === '/'
-}
 
-function App() {
+export default function App() {
+  const isLogin = window.location.pathname === '/login' || window.location.pathname === '/';
   return (
     <Router>
       <div>
-        {!isLogin() && <Header />}
+        {!isLogin && <Header />}
 
         <Route exact path="/" component={Login} />
         <Route path="/login" component={Login} />
@@ -25,6 +23,4 @@ function App() {
     </Router>
   );
 }
-
-export default App;
 

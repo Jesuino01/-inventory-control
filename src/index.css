@@ -7,6 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+input {    
+  border: 1px solid #eee;
+  padding: 12px;
+  border-radius: 12px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -17,9 +23,16 @@ code {
   padding: 0px 16px;
 }
 
+.container{ 
+  padding: 8% 16px;
+}
+
 @media screen and (min-width: 1024px){
   .diagram-project{
     padding: 0px 32px;
+  }
+  .container{ 
+    padding: 5% 32px;
   }
 }
 
@@ -27,5 +40,8 @@ code {
   .diagram-project{
     max-width: 1280px;
     margin: auto;
+  }
+  .container{ 
+    padding: 10% 32px;
   }
 }

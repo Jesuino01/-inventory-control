@@ -1,6 +1,6 @@
-import React, { Fragment } from 'react';
-import edit from '../images/edit.svg';
-import deleteItem from '../images/deleteItem.svg';
+import React from 'react';
+import edit from '../../images/edit.svg';
+import deleteItem from '../../images/deleteItem.svg';
 
 const arr = [
   { 
@@ -69,7 +69,7 @@ class ListProducts extends React.Component {
   
   render() {
     return (
-      <Fragment>
+      <>
         {
           arr.map((prod) => {
             return (
@@ -107,7 +107,7 @@ class ListProducts extends React.Component {
         }
       )
     }
-    </Fragment>
+    </>
     );
   }
 }

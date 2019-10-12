@@ -12,11 +12,7 @@ class Login extends React.Component {
 	}
 
 	goHome = () => {
-		// if(this.state.user === 'admin' && this.state.pass === 'admin'){
-		// 	console.log(window.location)
-		// }
 		console.log(window.location.host + '/home')
-		// window.location = 'http://stackoverflow.com/'
 		console.log(window.location.host + '/home');
 	}
 
